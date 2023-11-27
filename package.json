@@ -1,0 +1,39 @@
+{
+  "name": "mini-project-pwa-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon --exec ts-node app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/express": "^2.3.0",
+    "@fastify/url-data": "^5.4.0",
+    "cors": "^2.8.5",
+    "dns-prefetch-control": "^0.3.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.24.3",
+    "frameguard": "^4.0.0",
+    "helmet": "^7.1.0",
+    "hsts": "^2.2.0",
+    "ienoopen": "^1.1.1",
+    "mysql2": "^3.6.5",
+    "pino": "^8.16.2",
+    "pino-colada": "^2.2.2",
+    "x-xss-protection": "^2.0.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^14.0.0",
+    "nodemon": "^3.0.1",
+    "pino-pretty": "^10.2.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.3.2"
+  }
+}
